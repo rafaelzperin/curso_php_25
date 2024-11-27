@@ -12,4 +12,6 @@
 - `git commit -m "título descritivo"`
 - `git push`
 
+## tema de casa
+
 ## conflito no READ ME
