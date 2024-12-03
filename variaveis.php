@@ -1,6 +1,6 @@
 <?php
 const CPF = '04185875070';
-const VELOCIDADE_DA_LUZ = '320 m/s2' // escrever em letras maiúsculas e underline
+const VELOCIDADE_DA_LUZ = '320 m/s2'; // escrever em letras maiúsculas e underline
 //tipos de dados primitivos do PHP: declarar variávies
 $inteiro = 2;
 $string = "um texto qualquer";
@@ -12,9 +12,27 @@ $char = 'a';
 
 
 // tipos de dados estruturais
-$array_short = [];
-$array = array( );
+$array_short = []; // atual
+$array = array( ); // antigo
 
-$objeto = new stdClass(); // objeto dinâmico
+$objeto = new stdClass(); // objeto dinâmico (poo - programação orientada ao objeto)
 $classe = new stdClass(); // 
 
+class CanetaAzul {
+        //atributos ou propriedades
+        public const COR = "Azul";
+        public const PLASTICO = true;
+        public $nome;
+        public $tipomaterial = "Plástico";
+        public $dimensoes;
+        public $tipo;
+
+        // métodos ou funções
+    public function escrever() {
+
+    }
+    public function ler() {
+
+    }
+
+}

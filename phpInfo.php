@@ -7,7 +7,3 @@ echo phpinfo();  // mostrar informações do php
  */
 
 exit;
-
-
-
-
