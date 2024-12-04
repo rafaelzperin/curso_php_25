@@ -36,3 +36,21 @@ class CanetaAzul {
     }
 
 }
+// localhost
+echo "<br> olá, <b> mundo! </b> <br>";
+echo "<br>" . $string; //. é a concatenação p juntar string e <br> é parágrafo
+
+echo "<br> Rafael <br>
+    <b>
+        <i>
+            Perin
+        </i>
+    </b>
+    </br>";
+echo "<br> CPF:" . CPF;
+$soma = 10 +10;
+echo "<br> soma: " . $soma;
+$x = $soma - 2;
+echo "<br> x:" . $x;
+
+// tema de casa: fazer a tabuada e mostrar na tela
