@@ -54,3 +54,15 @@ $x = $soma - 2;
 echo "<br> x:" . $x;
 
 // tema de casa: fazer a tabuada e mostrar na tela
+echo "<br> Tabuada: <br>";
+        $produto1 = 6 * 1;
+        $produto2 = 6 * 2;
+        $produto3 = 6 * 3;
+        $produto4 = 6 * 4;
+        $produto5 = 6 * 5;
+        $produto6 = 6 * 6;
+        $produto7 = 6 * 7;
+        $produto8 = 6 * 8;
+        $produto9 = 6 * 9;
+        $produto10 = 6 * 10;
+echo " <br> 6.1 = " . $produto1;
