@@ -55,18 +55,20 @@ echo "<br> x:" . $x;
 
 // tema de casa: fazer a tabuada e mostrar na tela
 echo "<br> Tabuada: <br>";
-        $produto1 = 6 * 1;
-        $produto2 = 6 * 2;
-        $produto3 = 6 * 3;
-        $produto4 = 6 * 4;
-        $produto5 = 6 * 5;
-        $produto6 = 6 * 6;
-        $produto7 = 6 * 7;
-        $produto8 = 6 * 8;
-        $produto9 = 6 * 9;
-        $produto10 = 6 * 10;
-echo " <br> 6.1 = " . $produto1; 
-echo "<br> 6.2 = " . $produto2; 
-//<br> 6.3 = " . $produto3; <br> 6.4 = " . $produto4; <br> 6.5 = " . $produto5; 
-//<br> 6.6 = " . $produto6; <br> 6.7 = " . $produto7; <br> 6.8 = " . $produto8; <br> 6.9 = " . $produto9; <br> 6.10 = " . $produto10; 
+    $numero = 6;
+        $produto1 = $numero * 1;
+        $produto2 = $numero * 2;
+        $produto3 = $numero * 3;
+        $produto4 = $numero * 4;
+        $produto5 = $numero * 5;
+        $produto6 = $numero * 6;
+        $produto7 = $numero * 7;
+        $produto8 = $numero * 8;
+        $produto9 = $numero * 9;
+        $produto10 = $numero * 10;
+echo " <br> 6.1 =  $produto1 <br> 6.2 = $produto2 <br> 6.3 =  $produto3 
+    <br> 6.4 = $produto4 <br> 6.5 = $produto5 <br> 6.6 = $produto6 
+    <br> 6.7 = $produto7 <br> 6.8 = $produto8 <br> 6.9 = $produto9 <br> 6.10 = $produto10 "; 
+
+    // echo " <br> $numero . 4 = " . $numero*4;
 
