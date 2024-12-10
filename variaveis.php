@@ -1,5 +1,5 @@
 <?php
-const CPF = '04185875070';
+const CPF = '123456789';
 const VELOCIDADE_DA_LUZ = '320 m/s2'; // escrever em letras maiúsculas e underline
 //tipos de dados primitivos do PHP: declarar variávies
 $inteiro = 2;
