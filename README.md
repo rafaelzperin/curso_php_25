@@ -1,5 +1,5 @@
 # curso_php_25
-- abrir vscode na pasta /var/www/html
+- abrir vscode (open folder) na pasta /var/www/html
 - file -> open folder
 - copiar o link do repositório no github
 - vscode - terminal -> novo terminal
