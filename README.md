@@ -15,3 +15,5 @@
 ## tema de casa
 
 ## conflito no READ ME
+// para executar o localhost - sudo service apache2 start
+// localhost/curso_php_25
