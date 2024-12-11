@@ -8,7 +8,7 @@
  $numero = 1;
  $modulo= $numero % 2;
  if ($modulo == 0){
-    echo "<b> o número $numero é <br> par <br>! <b>"
+    echo "<b> o número $numero é <br> par <br>! <b>";
  } else{
-    echo "<b> o número $numero é <br> ímpar <br>! <b>"
+    echo "<b> o número $numero é <br> ímpar <br>! <b>";
  }
