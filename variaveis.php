@@ -71,4 +71,5 @@ echo " <br> 6.1 =  $produto1 <br> 6.2 = $produto2 <br> 6.3 =  $produto3
     <br> 6.7 = $produto7 <br> 6.8 = $produto8 <br> 6.9 = $produto9 <br> 6.10 = $produto10 "; 
 
     // echo " <br> $numero . 4 = " . $numero*4;
-
+// && e, || ou e . concatenação
+// == igual comparação, <= menor igual e >= maior igual, % módulo (resto da divisão 10%2 = 0)
