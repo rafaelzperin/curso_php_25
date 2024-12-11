@@ -73,3 +73,20 @@ echo " <br> 6.1 =  $produto1 <br> 6.2 = $produto2 <br> 6.3 =  $produto3
     // echo " <br> $numero . 4 = " . $numero*4;
 // && e, || ou e . concatenação
 // == igual comparação, <= menor igual e >= maior igual, % módulo (resto da divisão 10%2 = 0)
+// if else:
+    //condicao = x; 
+    // if (condicao1) {
+        // o que vamos executar
+    // } else if (condicao2){
+    //condição
+    //} else { 
+        //outra coisa
+        //}
+
+
+
+  /**
+ * Exercício 1:
+ * atribuir valor para uma variável "numero"
+ * e vamos  informar se é par ou ímpar
+ */
