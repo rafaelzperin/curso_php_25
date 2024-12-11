@@ -90,3 +90,9 @@ echo " <br> 6.1 =  $produto1 <br> 6.2 = $produto2 <br> 6.3 =  $produto3
  * atribuir valor para uma variável "numero"
  * e vamos  informar se é par ou ímpar
  */
+
+
+ // FOR
+ for ($i = 0; $i <=10; $i++) { // i++ soma i = i +1
+      echo "i = $i <br>";
+ }
