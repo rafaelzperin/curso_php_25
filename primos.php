@@ -1,12 +1,15 @@
 <?php
 //Exercício 2: Dizer se o número é primo ou não.
-$numero = 5;
+$numero = 13;
 //$restoPar = $numero % 2;
- for ($i = 0; $i <= ($numero - 1); $i++) {
+ for ($i = 2; $i <= ($numero - 1); $i++) {
   $resto = $numero % $i;
-   if {
-     $resto == 0
-       echo "<br> %numero não é primo!"
-       break
-   }
+  if ($resto == 0){
+    echo " $numero NÃO É PRIMO!";
+    break;
+      
+  } else{
+
  }
+ }
+ echo " $numero é PRIMO!";
