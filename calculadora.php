@@ -19,4 +19,4 @@ if ($operador == "+"){
     $x= $numero1 / $numero2;
 }
 
-echo "<br> $numero1 $operador $numero2 =  $x";
+echo " $numero1  $numero2 =  $x";
