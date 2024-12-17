@@ -21,4 +21,4 @@ if ($operador == "+"){
     echo " <br> ERRO";
 }
 
-echo " $numero1  $numero2 =  $x";
+echo " $numero1 $operador $numero2 =  $x";
