@@ -6,7 +6,7 @@ $numero = 15;
   $resto = $numero % $i;
   if ($resto == 0){
     echo " $numero NÃO É PRIMO!";
-    break;
+    exit;
       
   } else{
 
