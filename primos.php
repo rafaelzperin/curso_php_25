@@ -1,6 +1,6 @@
 <?php
 //Exercício 2: Dizer se o número é primo ou não.
-$numero = 15;
+$numero = 19;
 //$restoPar = $numero % 2;
  for ($i = 2; $i <= ($numero - 1); $i++) {
   $resto = $numero % $i;
