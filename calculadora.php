@@ -5,20 +5,24 @@
  */
 echo "CALCULADORA";
 $numero1=3;
-$numero2=0;
+$numero2=1;
 $operador= "/";
-//x=$numero1 $operador $numero2;
 
 if ($operador == "+"){
-    $x = $numero1 + $numero2;
+    $resultado = $numero1 + $numero2;
 } elseif ($operador == "-"){
-    $x= $numero1 - $numero2;
+    $resultado= $numero1 - $numero2;
 } elseif ($operador == "*") {
-    $x= $numero1 * $numero2;
-} elseif ($operador == "/") {
-    $x= $numero1 / $numero2;
+    $resultado= $numero1 * $numero2;
+} elseif ($operador == "/" && $numero2 == 0) {
+    echo "ERRO: divisão por zero";
+    exit;
+} 
+elseif ($operador == "/") {
+    $resultado= $numero1 / $numero2;
 } else {
     echo " <br> ERRO";
 }
 
-echo " $numero1 $operador $numero2 =  $x";
+echo " <br> $numero1 $operador $numero2 =  $resultado <br>";
+echo "$resultado2";
