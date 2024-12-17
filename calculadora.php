@@ -6,7 +6,7 @@
 echo "CALCULADORA";
 $numero1=3;
 $numero2=1;
-$operador= "*";
+$operador= "/";
 //x=$numero1 $operador $numero2;
 
 if ($operador == "+"){
