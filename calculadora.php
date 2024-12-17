@@ -21,4 +21,5 @@ if ($operador == 1){
     echo "escolha outro operador!";
     exit
 }
+
 echo "<br> o resultado é: $x";
