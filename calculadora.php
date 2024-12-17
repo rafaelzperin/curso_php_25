@@ -19,7 +19,7 @@ if ($operador == 1){
     $x= $numero1 / $numero2;
 } else {
     echo "escolha outro operador!";
-    exit
+    exit;
 }
 
 echo "<br> o resultado é: $x";
