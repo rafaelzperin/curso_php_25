@@ -13,3 +13,19 @@ $numero = 19;
  }
  }
  echo " $numero é PRIMO!";
+
+//$numero = 9;
+//$limitador = $numero - 1;
+//$primo = true;
+//for ($i = 2; $i <= $limitador; $i++ ) {
+  //  if ($resto == 0) {
+    //    $primo = false;
+      //  break;
+    //}  
+//}
+
+//if ($primo) {
+  //  echo "<br>O $numero é primo.";
+//} else {
+ //   echo "<br>O $numero NÃO é primo.";
+//}
