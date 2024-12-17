@@ -18,8 +18,8 @@ if ($operador == "+"){
 } elseif ($operador == "/") {
     $x= $numero1 / $numero2;
 } else {
-    echo " <br> ERRO"
+    echo " <br> ERRO";
 }
 
 
-echo " $numero1  $numero2 =  $x";
+//echo " $numero1  $numero2 =  $x";
