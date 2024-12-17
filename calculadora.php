@@ -25,4 +25,3 @@ elseif ($operador == "/") {
 }
 
 echo " <br> $numero1 $operador $numero2 =  $resultado <br>";
-echo "$resultado2";
