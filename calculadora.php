@@ -3,7 +3,7 @@
  * operadores: +, -, *, /;
  * 
  */
-echo "1 - adição <br> 2 - subtração <br> 3 - multiplicação <br> 4 - divisão";
+echo "CALCULADORA";
 $numero1=3;
 $numero2=1;
 $operador= "*";
@@ -15,8 +15,11 @@ if ($operador == "+"){
     $x= $numero1 - $numero2;
 } elseif ($operador == "*") {
     $x= $numero1 * $numero2;
-} else ($operador == "/") {
+} elseif ($operador == "/") {
     $x= $numero1 / $numero2;
+} else {
+    echo " <br> ERRO"
 }
+
 
 echo " $numero1  $numero2 =  $x";
