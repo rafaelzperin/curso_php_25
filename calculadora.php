@@ -6,10 +6,10 @@
 echo "1 - adição <br> 2 - subtração <br> 3 - multiplicação <br> 4 - divisão";
 $numero1=3;
 $numero2=1;
-$operador= 2;
+$operador= "+";
 //x=$numero1 $operador $numero2;
 
-if ($operador == 1){
+if ($operador == "+"){
     $x = $numero1 + $numero2;
 } elseif ($operador == 2){
     $x= $numero1 - $numero2;
