@@ -5,8 +5,8 @@
  */
 echo "<br> CALCULADORA <br>";
 $numero1=3;
-$numero2=5;
-$operador= "/";
+$numero2=6;
+$operador= "#";
 
 if ($operador == "+"){
     $resultado = $numero1 + $numero2;
