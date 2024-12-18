@@ -16,15 +16,14 @@ if ($operador == "+"){
     $resultado= $numero1 * $numero2;
 } elseif ($operador == "/" && $numero2 == 0) {
     echo "ERRO: divisão por zero";
-} 
-elseif ($operador == "/") {
+} elseif ($operador == "/") {
     $resultado= $numero1 / $numero2;
 } elseif ($operador == "#"){
     $resultado= $numero2 * 100 / $numero1;
-}
-else {
+} else {
     echo " <br> ERRO <br>";
 }
+
     if ($operador == "#"){
     echo "$numero2 é $resultado % de $numero1";
 }
