@@ -1,7 +1,7 @@
 <?php
 echo "<br> CONDIÇÃO DE EXISTÊNCIA DE UM TRIÂNGULO: <br> ";
 $ladoA = 2;
-$ladoB = 2;
+$ladoB = 4;
 $ladoC = 3;
 
 if ($ladoA + $ladoB > $ladoC && $ladoA + $ladoC > $ladoB && $ladoB + $ladoC > $ladoA ){
