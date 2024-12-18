@@ -1,6 +1,6 @@
 <?php
 echo "<br> CONDIÇÃO DE EXISTÊNCIA DE UM TRIÂNGULO: <br> ";
-$ladoA = 1;
+$ladoA = 2;
 $ladoB = 2;
 $ladoC = 3;
 
