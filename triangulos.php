@@ -8,6 +8,7 @@ if ($ladoA + $ladoB > $ladoC && $ladoA + $ladoC > $ladoB && $ladoB + $ladoC > $l
     echo "<br> é triângulo! <br>";
 } else{ 
     echo " <br> não é triângulo <br>";
+    exit;
 }
 
 if ($ladoA == $ladoB && $ladoA == $ladoC && $ladoB == $ladoC ) {
