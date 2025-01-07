@@ -20,10 +20,8 @@ $isano = ($ano > 0);
 
 if (! $isdia){
 echo " <br> o dia está incorreto <br>";
-exit
 } elseif (! $ismes){
 echo " <br> o mês está incorreto <br>";
-exit
 } elseif (! $isano){
 echo " <br> o ano está incorreto <br>";
 } else{
