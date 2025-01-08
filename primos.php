@@ -36,7 +36,7 @@ $numero = 10;
 $limiteSuperior = 100;
 
 for ($j = 1; $j <= 10; $i++){
-$numero = $numero + j;
+$numero = $numero + $j;
 for ($i = 3; $i <= ($numero - 1); $i+=2) {
   $resto = $numero % $i;
   if ($resto == 0){
