@@ -14,7 +14,7 @@
  }
 
  // Quais são os 10 primeiros pares e ímpares?
- echo " <br> par ... impar <br>";
+ echo " <br> par ... ímpar <br>";
  $quantidade = 10;
  for ($i = 0; $i <= $quantidade; $i++) { 
    $par = 2 * $i;
