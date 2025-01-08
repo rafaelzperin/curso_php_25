@@ -33,16 +33,15 @@ $numero = 19;
 
  $primos = [];
 $numero = 10;
-$limiteSuperior = 100;
+$limiteSuperior = 20;
 
 for ($j = 1; $j <= 10; $i++){
-$numero = $numero + $j;
-for ($i = 3; $i <= ($numero - 1); $i+=2) {
-  $resto = $numero % $i;
-  if ($resto == 0){
-    $primos[]=$numero;
-  } else{
-
- }
+  $numero = $numero + $j;
+  for ($i = 3; $i <= ($numero - 1); $i+=2) {
+    $resto = $numero % $i;
+    if ($resto == 0){
+      $primos[]=$numero;
+    } else{
+  }
  }
 }
