@@ -12,3 +12,13 @@
  } else{
     echo "<br> O número $numero é <b> ímpar <b>! <br>";
  }
+
+ // Quais são os 10 primeiros pares e ímpares?
+ $quantidade = 10;
+ for ($i = 0; $i <= $quantidade; $i++) { 
+   $par = 2 * $i;
+   $impar = 2* $i + 1;
+   echo " <br> $par ... $impar <br>";
+//   $pares = array[$par];
+}
+//echo "$pares";
