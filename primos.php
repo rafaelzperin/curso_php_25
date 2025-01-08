@@ -33,7 +33,7 @@ $numero = 19;
 
  $primos = [];
 $numero = 10;
-$limiteSuperior = 20;
+$limiteSuperior = 13;
 
 for ($j = 1; $j <= 10; $i++){
   $numero = $numero + $j;
