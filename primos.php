@@ -31,19 +31,29 @@ $numero = 19;
 //}
 
 
-<?php
+//<?php
 $primos = [];
-$numero = 27;
+$numero = 10;
+$quantidadePrimos = 10;
 //$restoPar = $numero % 2;
 
+while (count($primos) < $quantidadePrimos){
+$numero = $numero +1;
  for ($i = 2; $i <= ($numero - 1); $i++) {
   $resto = $numero % $i;
 
      if ($resto == 0){
-         break;
+      $v = 1;
+     break;
          
       } else{
+      $v = 0;
+     }
  }
- }
+    if ($v == 0){
+       $primos[] = $numero;
+    } else {
+    }
+}
 
-//  echo " <br> Primos: " .implode(", ", $primos) . "<br>"; 
+echo " <br> Primos: " .implode(", ", $primos) . "<br>"; 
