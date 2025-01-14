@@ -13,9 +13,4 @@
 
 // para executar o localhost -> sudo service apache2 start
 // localhost/curso_php_25
-/***
- * 1) recriar a tabuada;
- * 2) encontrar os 10 primeiros números pares e os 10 primeiros ímpares;
- * 3) encontrar os 10 primeiros números primos, a partir do 10.
- * 4) colocar em ordem crescente [10,5,2,30,85,14];
- */
+
