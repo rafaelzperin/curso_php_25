@@ -9,4 +9,4 @@ $limite = 10; // quando a tabuada para
    }
  }
  
- tabuada(4, $limite);
+ tabuada(4, 14);
