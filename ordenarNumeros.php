@@ -1,7 +1,7 @@
 <?php
 // ordenar [10, 5, 2, 30, 85, 14]
 
-$numeros = [84, 3, 10, 5, 2, 30, 85, 14, 6];
+$numeros = [ 150,10, 5, 2, 30, 85, 14];
 $tamanho = count($numeros);
 // $k = 0;
 for ($j = 1; $j <= $tamanho - 1; $j++){
