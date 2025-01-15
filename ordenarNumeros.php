@@ -5,6 +5,7 @@ $numeros = [84, 3, 10, 5, 2, 30, 85, 14, 6];
 $tamanho = count($numeros);
 
 for ($j = 1; $j <= $tamanho - 1; $j++){
+    $numerosAnt = $numeros; 
     for ($i = 1; $i <= $tamanho - 1; $i++){
         if ($numeros[$i-1] > $numeros[$i]){
            
@@ -16,6 +17,11 @@ for ($j = 1; $j <= $tamanho - 1; $j++){
         // echo " <br> Números: " .implode(", ", $numeros) . "<br>";
         } else{
         }
+    }
+    if ( $numeros == $numerosAnt){
+        break;
+    } else {
+
     }
 }
 
