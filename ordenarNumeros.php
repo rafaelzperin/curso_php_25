@@ -18,11 +18,11 @@ for ($j = 1; $j <= $tamanho - 1; $j++){
         } else{
         }
     }
-    // if ( $numeros == $numerosAnt){
-    //     break;
-    // } else {
+    if ( $numeros == $numerosAnt){
+        break;
+    } else {
 
-    // }
+    }
     $k++;
 }
 echo " $k";
