@@ -53,5 +53,5 @@ class ContaBancaria {
 }
 
 $conta = new ContaBancaria();
-$conta->pix();
+$conta->pix(150);
 echo $conta->extrato();
