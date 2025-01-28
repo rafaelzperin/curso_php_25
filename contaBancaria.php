@@ -7,7 +7,12 @@ class ContaBancaria {
     public $historico = [];
     
     public function sacar() {}
-    public function depositar() {}
+
+    public function depositar($valor) {
+        $this->saldo += $this->$valor; 
+        $this->setHistorico("Depósito","", 100);
+    }
+
     public function pix() {
 
         $this->setHistorico("Joao", "Pedro", 150);
