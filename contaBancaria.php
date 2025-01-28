@@ -54,5 +54,6 @@ class ContaBancaria {
 
 $conta = new ContaBancaria();
 $conta->pix();
-$conta->depositar(100)
+$conta->depositar(100);
+echo $conta->depositar();
 echo $conta->extrato();
