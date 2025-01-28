@@ -10,7 +10,7 @@ class ContaBancaria {
 
     public function depositar($valor) {
         $this->saldo += $this->$valor; 
-        $this->setHistorico("Depósito","", 100);
+//        $this->setHistorico("Depósito","", 100);
     }
 
     public function pix() {
