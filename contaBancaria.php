@@ -122,4 +122,4 @@ $conta = new ContaBancaria($arquivoTxt);
 // $conta->depositar(10, 500);
 // echo $conta->extrato(10);
 echo $conta->listarContas();
-echo $idConta;
+echo $this-> $idConta;
