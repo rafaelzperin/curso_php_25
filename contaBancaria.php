@@ -121,5 +121,5 @@ $conta = new ContaBancaria($arquivoTxt);
  $conta->criarConta("Rafael", 250);
  $conta->depositar(1, 500);
 // echo $conta->extrato(10);
-//$conta->pix("Rafael", 121);
+$conta->pix(2, 121);
 echo $conta->listarContas();
