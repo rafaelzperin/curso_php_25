@@ -4,34 +4,4 @@
         "nome": "Rafael",
         "saldo": 150
     },
-    {
-        "id": 2,
-        "nome": "Rafael",
-        "saldo": 250
-    },
-    {
-        "id": 3,
-        "nome": "Rafael",
-        "saldo": 250
-    },
-    {
-        "id": 4,
-        "nome": "Rafael",
-        "saldo": 250
-    },
-    {
-        "id": 5,
-        "nome": "Rafael",
-        "saldo": 250
-    },
-    {
-        "id": 6,
-        "nome": "Rafael",
-        "saldo": 250
-    },
-    {
-        "id": 7,
-        "nome": "Rafael",
-        "saldo": 250
-    }
 ]
