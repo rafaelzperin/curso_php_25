@@ -18,9 +18,9 @@ class ArquivoTxt {
     private function verificarArquivoExiste() {
         return file_exists($this->caminhoArquivo);
     }
-
-    private function criarArquivo() {
-        file_put_contents($this->caminhoArquivo, "");
+// get / post / put / delete (CRUD)
+    private function criarArquivo() { //ler dados e salvar
+        file_put_contents($this->caminhoArquivo, ""); 
         return;
         try{
             $arquivoCriado = file_put_contents($this->caminhoArquivo, "");
@@ -36,7 +36,7 @@ class ArquivoTxt {
     }
 
     public function escrever($dados) {
-        $dadosParaSalvar[] = json_encode($dados, JSON_PRETTY_PRINT);
+        $dadosParaSalvar[] = json_encode($dados, JSON_PRETTY_PRINT); //
         $dadosInseridos = file_put_contents($this->caminhoArquivo, $dadosParaSalvar);
 
         if (!$dadosInseridos) {
