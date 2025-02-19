@@ -8,4 +8,6 @@ if (!$conexao) {
     echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
     echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
     exit;
+}else{
+    echo "to online"
 }
