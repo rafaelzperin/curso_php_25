@@ -87,9 +87,28 @@ class ContaBancaria {
         return false;
     }
 
-    public function pix($valor) {
+    public function pix($contaOrigem, $contaDestino, $valor) {
+        
+        $dados = $this->arquivoTxt->ler();
 
+        foreach($dados as $idx => &$conta){
+            if ($this->extrato($contaOrigem) < $valor){
+                break;
+            }
+
+            if ($conta['id'] === $contaOrigem) {
+                    $conta['saldo'] -= $valor;
+                    $this->arquivoTxt->escrever($dados);
+            }
+
+            if ($conta['id'] === $contaDestino) {
+                $conta['saldo'] += $valor;
+                $this->arquivoTxt->escrever($dados);
+            }
+        }
+        return false;
     }
+    
 
     public function extrato($idConta) {
         $dados = $this->arquivoTxt->ler();
@@ -99,7 +118,6 @@ class ContaBancaria {
                 return $conta['saldo'];
             }
         }
-        
         return null; 
     }
 }
@@ -108,7 +126,9 @@ $nomeArquivo = "banco_do_brasil.txt";
 $arquivoTxt = new GerenciadorDeArquivo($nomeArquivo);
 $conta = new ContaBancaria($arquivoTxt);
 
-$conta->criarConta("Rafael", 150);
+//$conta->criarConta("Rafael", 150);
 // $conta->depositar(10, 500);
 // echo $conta->extrato(10);
 echo $conta->listarContas();
+
+$conta->pix(10,11,200);
