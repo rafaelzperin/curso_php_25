@@ -13,4 +13,4 @@
 
 // para executar o localhost -> sudo service apache2 start
 // localhost/curso_php_25
-
+// sudo mysql -uroot -p
