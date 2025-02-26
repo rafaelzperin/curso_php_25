@@ -146,6 +146,12 @@ $id = $_REQUEST["id"] ?? 0;
 $saldo = $_REQUEST["saldo"] ?? 0;
 
 $sql = "SELECT * FROM conta_bancaria WHERE id = $id";
+// SELECT * FROM conta_bancaria WHERE saldo >= 41 and saldo < 100000;
+//SELECT * FROM conta_bancaria WHERE saldo > 100 and nome_titular = "Rafael";
+// SELECT * FROM conta_bancaria WHERE nome_titular LIKE "%R%";
+// SELECT * FROM conta_bancaria WHERE id IN (1,3,4);
+
+
 
 if ($saldo > 0) {
     // SELECT * FROM conta_bancaria WHERE id = $id and saldo <= $saldo;
